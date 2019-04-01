@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link type="text/css" rel="stylesheet" href="style.css">
+
+   <title>Drum Machine</title>
+</head>
+<body>
+   <!-- FreeCodeCamp Project Tester-->
+   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+   <header>
+      <h1>Drum Machine</h1><hr class="divide-line-header">
+      <p>A FreeCodeCamp Project Challenge</p>
+   </header>
+   <div id="drum-machine">
+      <div id="display">
+         <div class="drum-pad">
+            <button id="Q" class="btn keys">Q</button>
+            <button id="W" class="btn keys">W</button>
+            <button id="E" class="btn keys">E</button>
+            <button id="A" class="btn keys">A</button>
+            <button id="S" class="btn keys">S</button>
+            <button id="D" class="btn keys">D</button>
+            <button id="Z" class="btn keys">Z</button>
+            <button id="X" class="btn keys">X</button>
+            <button id="C" class="btn keys">C</button>
+         </div>
+      </div>
+      <div class="settings">
+         <div id="power" class="power">Power is ON </div>
+         <div><label  class="switch"><input id="powertoggle" type="checkbox" checked><span class="slider round"></span></label></div>
+         <div id="event" class="event">Event Display</div>
+         <div class="volume">
+            <input id="key-volume" type="range" step="0.01" min="0" max="1" value="0.5">
+         </div>
+         <div id="mp3" class="mp3-style">MP3 Style : 1</div>
+         <div><label  class="switch"><input id="mp3-style" type="checkbox" checked><span class="slider-mp3"></span></label></div>
+
+      </div>
+   </div>
+   <footer>
+      <div>
+         <span>Presented by Eric R. Kock - Feb. 2019 | 
+            <a href="https://about.me/erickock" target="_blank"> About Me</a> -
+            <a href="https://codepen.io/EricRKock/" target="_blank"> CodePen </a> - 
+            <a href="https://github.com/ericrkock/Code-Training/tree/master/FreeCodeCamp/Projects" target="_blank"> GitHub</a>
+         </span>
+      </div>
+   </footer>
+
+   <script src="drum-machine.js"></script>
+</body>
+</html>
